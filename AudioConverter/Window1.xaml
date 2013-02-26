@@ -1,0 +1,14 @@
+﻿<Window x:Class="AudioConverter.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="231" Width="418">
+    <Grid>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="138,77,0,0" Name="comboBox2" VerticalAlignment="Top" Width="120" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="264,77,0,0" Name="comboBox3" VerticalAlignment="Top" Width="120" />
+        <Label Content="Formato" Height="28" HorizontalAlignment="Left" Margin="12,43,0,0" Name="label1" VerticalAlignment="Top" Width="120" />
+        <Label Content="Frecuencia (Hz)" Height="28" HorizontalAlignment="Left" Margin="138,43,0,0" Name="label2" VerticalAlignment="Top" Width="120" />
+        <Label Content="Bitrate (kbps)" Height="28" HorizontalAlignment="Left" Margin="264,43,0,0" Name="label3" VerticalAlignment="Top" Width="120" />
+        <Button Content="Aceptar" Height="22" HorizontalAlignment="Left" Margin="264,158,0,0" Name="button1" VerticalAlignment="Top" Width="120" Click="button1_Click" />
+        <Label Height="32" HorizontalAlignment="Left" Margin="12,68,0,0" Name="label4" VerticalAlignment="Top" Width="111" />
+    </Grid>
+</Window>
